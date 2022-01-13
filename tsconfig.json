@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "es2016",
+		"module": "commonjs",
+		"baseUrl": "./",
+		"paths": {
+			"@src/*": ["src/*"]
+		},
+		"rootDirs": ["./src"],
+		"types": ["node", "jest"],
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"include": ["src"]
+}
