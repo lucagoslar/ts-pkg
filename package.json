@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"description": "Boilerplate to create npm packages in TypeScript.",
 	"main": "./dist/index.js",
+	"types": "./dist/index.d.js",
 	"files": [
 		"./dist/**/*"
 	],
