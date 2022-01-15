@@ -1,4 +1,7 @@
 {
+	"ts-node": {
+		"files": true
+	},
 	"compilerOptions": {
 		"target": "es2016",
 		"module": "commonjs",
@@ -7,7 +10,7 @@
 			"@src/*": ["src/*"]
 		},
 		"rootDirs": ["./src"],
-		"types": ["node", "jest"],
+		"types": ["node", "ts-jest"],
 		"declaration": true,
 		"declarationMap": true,
 		"sourceMap": true,
