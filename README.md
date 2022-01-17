@@ -2,7 +2,7 @@
 
 This is a Boilerplate to create npm packages in TypeScript.
 
-[![build package and run tests](https://github.com/lucaausde/ts-pkg/actions/workflows/main.yml/badge.svg)](https://github.com/lucaausde/ts-pkg/actions/workflows/main.yml)
+[![build package and run tests](https://github.com/lucagoslar/ts-pkg/actions/workflows/main.yml/badge.svg)](https://github.com/lucagoslar/ts-pkg/actions/workflows/main.yml)
 
 ## Contribute
 
