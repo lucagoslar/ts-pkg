@@ -5,12 +5,13 @@ name: build package and run tests
 
 on:
   push:
-    branches: [main]
-      paths:
-        - 'package.json'
-        - 'tsconfig.json'
-        - 'tsconfig.build.json'
-        - 'src/**'
+    branches:
+      - main
+    paths:
+      - 'package.json'
+      - 'tsconfig.json'
+      - 'tsconfig.build.json'
+      - 'src/**'
   pull_request:
     branches: [main]
 
