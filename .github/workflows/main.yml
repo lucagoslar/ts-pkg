@@ -5,13 +5,13 @@ name: build package and run tests
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - 'package.json'
       - 'tsconfig.json'
       - 'tsconfig.build.json'
       - 'src/**'
+      - '.github/workflows/main.yml'
   pull_request:
     branches: [main]
 
