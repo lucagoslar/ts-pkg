@@ -2,6 +2,7 @@
 .husky/_/*
 .DS_Store
 *.gitignore.*
+dist/
 
 # Logs
 logs
