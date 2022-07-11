@@ -9,13 +9,13 @@ This is a Boilerplate to create npm packages in TypeScript.
 Install all (dev-)dependencies by running the following.
 
 ```
-  npm i
+  pnpm i
 ```
 
 Make sure [husky](https://github.com/typicode/husky) is being installed too.
 
 ```
-  npm run prepare
+  pnpm run prepare
 ```
 
 \
@@ -24,5 +24,5 @@ _And off we go …_
 Build this project with the following.
 
 ```
-npm run build
+  pnpm run build
 ```
