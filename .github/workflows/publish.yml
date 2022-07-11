@@ -1,5 +1,4 @@
-# https://github.com/marketplace/actions/npm-publish
-name: publish
+name: publish package
 
 on:
   release:
@@ -10,18 +9,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
-          # registry-url: https://registry.npmjs.org/
+          node-version: 18
 
-      - run: npm ci
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 7.5.0
 
-      - run: npm run build
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-      - run: npm pack --dry-run
+      - name: Build package
+        run: pnpm run build
 
-      # - run: npm publish --access public
+      - name: Publish package
+        run: pnpm publish --dry-run
+      # - run: pnpm publish --access public
       # env:
       #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
