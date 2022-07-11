@@ -3,4 +3,3 @@ const moin = () => {
 };
 
 export { moin };
-export default moin;
