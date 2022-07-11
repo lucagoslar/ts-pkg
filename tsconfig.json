@@ -10,7 +10,7 @@
 			"@src/*": ["src/*"]
 		},
 		"rootDirs": ["./src"],
-		"types": ["node", "ts-jest"],
+		"types": ["node", "jest"],
 		"declaration": true,
 		"declarationMap": true,
 		"sourceMap": true,
