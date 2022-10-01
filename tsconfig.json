@@ -9,7 +9,8 @@
 			"@src/*": ["src/*"]
 		},
 		"rootDirs": ["./src"],
-		"types": ["node", "jest"],
+		"types": ["node", "jest", "ts-jest"],
+		"moduleResolution": "node",
 		"declaration": true,
 		"declarationMap": true,
 		"sourceMap": true,
