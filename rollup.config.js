@@ -4,6 +4,7 @@ import { builtinModules as builtins } from 'module';
 
 const deps = Object.keys(pkg.dependencies || {});
 
+/** @type {import('rollup').RollupOptions} */
 export default {
 	input: 'src/index.ts',
 	external: [...builtins, ...deps],
