@@ -1,7 +1,6 @@
 {
 	"env": {
-		"browser": true,
-		"es2022": true
+		"browser": true
 	},
 	"extends": [
 		"eslint:recommended",
