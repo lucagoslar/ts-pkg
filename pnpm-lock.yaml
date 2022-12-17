@@ -16,10 +16,11 @@ specifiers:
   rollup: ^3.7.5
   ts-jest: ^29.0.3
   ts-node: ^10.9.1
+  tslib: ^2.4.1
   typescript: ^4.9.4
 
 devDependencies:
-  '@rollup/plugin-typescript': 10.0.1_oj4jlwi3mkekxo3vucumcwebnq
+  '@rollup/plugin-typescript': 10.0.1_lm43bqmazlmc7bh6tmgin6rwzu
   '@types/jest': 29.2.4
   '@types/node': 18.11.16
   '@typescript-eslint/eslint-plugin': 5.46.1_mqzxmroayievgzgel6yrqgih5i
@@ -34,6 +35,7 @@ devDependencies:
   rollup: 3.7.5
   ts-jest: 29.0.3_p6ekqnroyms5nhqbfxosryz7rm
   ts-node: 10.9.1_rmyookn2hbqnnqjamditnjqvjq
+  tslib: 2.4.1
   typescript: 4.9.4
 
 packages:
@@ -716,7 +718,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@rollup/plugin-typescript/10.0.1_oj4jlwi3mkekxo3vucumcwebnq:
+  /@rollup/plugin-typescript/10.0.1_lm43bqmazlmc7bh6tmgin6rwzu:
     resolution: {integrity: sha512-wBykxRLlX7EzL8BmUqMqk5zpx2onnmRMSw/l9M1sVfkJvdwfxogZQVNUM9gVMJbjRLDR5H6U0OMOrlDGmIV45A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -732,6 +734,7 @@ packages:
       '@rollup/pluginutils': 5.0.2_rollup@3.7.5
       resolve: 1.22.1
       rollup: 3.7.5
+      tslib: 2.4.1
       typescript: 4.9.4
     dev: true
 
@@ -2999,6 +3002,10 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
+    dev: true
+
+  /tslib/2.4.1:
+    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.9.4:
