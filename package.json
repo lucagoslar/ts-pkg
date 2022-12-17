@@ -2,8 +2,10 @@
 	"name": "ts-pkg",
 	"version": "0.2.0",
 	"description": "Boilerplate to create npm packages in TypeScript.",
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.mjs",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.cjs"
+	},
 	"types": "./dist/index.d.ts",
 	"files": [
 		"dist"
