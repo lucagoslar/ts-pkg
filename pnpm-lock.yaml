@@ -1,5 +1,9 @@
 lockfileVersion: 5.4
 
+overrides:
+  semver@>=6.0.0 <6.3.1: '>=6.3.1'
+  '@babel/traverse@<7.23.2': '>=7.23.2'
+
 specifiers:
   '@rollup/plugin-typescript': ^11.1.5
   '@types/jest': ^29.5.6
